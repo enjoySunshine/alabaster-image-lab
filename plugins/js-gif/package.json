@@ -18,6 +18,8 @@
     "@jimp/config-eslint": "workspace:*",
     "@jimp/config-typescript": "workspace:*",
     "@jimp/config-vitest": "workspace:*",
+    "@jimp/plugin-blit": "workspace:*",
+    "@jimp/plugin-resize": "workspace:*",
     "@jimp/test-utils": "workspace:*",
     "@types/node": "^18.19.48",
     "@types/omggif": "^1.0.5",
@@ -56,7 +58,6 @@
   "dependencies": {
     "@jimp/core": "workspace:*",
     "@jimp/types": "workspace:*",
-    "gifwrap": "^0.10.1",
     "omggif": "^1.0.10"
   },
   "publishConfig": {

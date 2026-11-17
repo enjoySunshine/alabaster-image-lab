@@ -578,9 +578,6 @@ importers:
       '@jimp/types':
         specifier: workspace:*
         version: link:../../packages/types
-      gifwrap:
-        specifier: ^0.10.1
-        version: 0.10.1
       omggif:
         specifier: ^1.0.10
         version: 1.0.10
@@ -594,6 +591,12 @@ importers:
       '@jimp/config-vitest':
         specifier: workspace:*
         version: link:../../packages/config-vitest
+      '@jimp/plugin-blit':
+        specifier: workspace:*
+        version: link:../plugin-blit
+      '@jimp/plugin-resize':
+        specifier: workspace:*
+        version: link:../plugin-resize
       '@jimp/test-utils':
         specifier: workspace:*
         version: link:../../packages/test-utils
@@ -3926,9 +3929,6 @@ packages:
   get-uri@6.0.3:
     resolution: {integrity: sha512-BzUrJBS9EcUb4cFol8r4W3v1cPsSyajLSthNkz5BxbpDcHN5tIrM10E2eNvfnvBn3DaT3DUgx0OpsBKkaOpanw==}
     engines: {node: '>= 14'}
-
-  gifwrap@0.10.1:
-    resolution: {integrity: sha512-2760b1vpJHNmLzZ/ubTtNnEx5WApN/PYWJvXvgS+tL1egTTthayFYIQQNi136FLEDcN/IyEY2EcGpIITD6eYUw==}
 
   github-slugger@2.0.0:
     resolution: {integrity: sha512-IaOQ9puYtjrkq7Y0Ygl9KDZnrf/aiUJYUpVf89y8kyaxbRG7Y1SrX/jaumrv81vc61+kiMempujsM3Yw7w5qcw==}
@@ -8744,11 +8744,6 @@ snapshots:
       fs-extra: 11.2.0
     transitivePeerDependencies:
       - supports-color
-
-  gifwrap@0.10.1:
-    dependencies:
-      image-q: 4.0.0
-      omggif: 1.0.10
 
   github-slugger@2.0.0: {}
 
